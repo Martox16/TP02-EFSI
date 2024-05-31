@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.input-container button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #45a049;
+}
+
+
+#send {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send:hover {
+    background-color: #45a049;
+}
+
+#agregar-tarea {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#agregado {
+    flex: 1;
+}
+
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#mostrar-respuesta {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.tarea {
+    flex: 1;
+}
+
+.bot {
+    background-color: red;
+    margin-left: 10px; 
+    transition-duration: 0.5s;
+}
+
+.bot:hover{
+    background-color: rgb(163, 35, 35);
+    scale: 1.05;
+    
+}
